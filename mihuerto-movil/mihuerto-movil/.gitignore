@@ -1,0 +1,51 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+build
+.idea
+/mihuerto-movil/.idea
+/mihuerto-movil/build/
+/mihuerto-movil/.dart_tool
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+/mihuerto-movil/**/doc/api/
+/mihuerto-movil/**/ios/Flutter/.last_build_id
+/mihuerto-movil/.dart_tool/
+/mihuerto-movil/.flutter-plugins
+/mihuerto-movil/.flutter-plugins-dependencies
+/mihuerto-movil/.packages/
+/mihuerto-movil/.pub-cache/
+/mihuerto-movil/.pub/
+
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+mihuerto-movil/android/app/debug
+mihuerto-movil/android/app/profile
+mihuerto-movil/android/app/release
+/mihuerto-front/node_modules/
+/mihuerto-back/node_modules/
